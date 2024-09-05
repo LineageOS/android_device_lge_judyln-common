@@ -4,11 +4,8 @@
 
 # ADSP
 vendor/bin/chre
-vendor/lib/libfastcrc.so
-vendor/lib/libfastcvdsp_stub.so
 vendor/lib/libsymphony-1.1.4.so
 vendor/lib/libsymphonypower-1.1.4.so
-vendor/lib64/libfastcvdsp_stub.so
 vendor/lib64/libsymphony-1.1.4.so
 vendor/lib64/libsymphonypower-1.1.4.so
 
