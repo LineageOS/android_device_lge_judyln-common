@@ -197,11 +197,9 @@ vendor/etc/camera/vnr/SJ_VideoNR_LUT.bin
 
 # Fingerprint
 vendor/lib/hw/fingerprint.sdm845.so
-vendor/lib/libfpfactory.so
 vendor/lib/libgf_algo.so
 vendor/lib/libgf_hal.so
 vendor/lib64/hw/fingerprint.sdm845.so
-vendor/lib64/libfpfactory.so
 vendor/lib64/libgf_algo.so
 vendor/lib64/libgf_hal.so
 
