@@ -2,6 +2,11 @@
 ## are from G710AWM30e
 ## judyln_lao_com-user 10 QKQ1.191222.002 8450100201101 release-keys
 
+# Current blobs with ELF checks disabled:
+#
+# The following depend on compiler intrinsic symbols that are not exported:
+# com.lge.node.{elpis,elvis,lavis}, com.lge.stats.{af,af_core}, com.qti.chi.override, com.qti.node.memcpy, liblgae_main, libmmcamera_faceproc, sensors.hal.tof
+
 # ADSP
 vendor/bin/chre
 vendor/lib/libsymphony-1.1.4.so
@@ -36,17 +41,17 @@ vendor/lib/libfilm_emulation.so
 vendor/lib/libfilm_emulation_symphony.so
 vendor/lib/liblgdnn.so
 vendor/lib/liblghdri.so
-vendor/lib/libmmcamera_faceproc.so
+vendor/lib/libmmcamera_faceproc.so;DISABLE_CHECKELF
 vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmorpho_image_stab31.so
 vendor/lib/libmorpho_superzoom.so
 vendor/lib/libmpbase.so
-vendor/lib/sensors.hal.tof.so
-vendor/lib64/libmmcamera_faceproc.so
+vendor/lib/sensors.hal.tof.so;DISABLE_CHECKELF
+vendor/lib64/libmmcamera_faceproc.so;DISABLE_CHECKELF
 vendor/lib64/libmmcamera_faceproc2.so
 
 # Camera - patched to fix buffer issue
-vendor/lib/hw/com.qti.chi.override.so|aba5cab718dd20f1abe458fb18426ce717d95345
+vendor/lib/hw/com.qti.chi.override.so;DISABLE_CHECKELF|aba5cab718dd20f1abe458fb18426ce717d95345
 
 # Camera - Automatic white-balance and exposure
 vendor/lib/camera/fdconfigpreview.bin
@@ -115,23 +120,23 @@ vendor/lib/camera/titan17x_usecases.bin
 vendor/lib/lib.com.lge.elvis.so
 vendor/lib/lib_wdr2.so
 vendor/lib/libcom.qti.chinodeutils.so
-vendor/lib/liblgae_main.so
+vendor/lib/liblgae_main.so;DISABLE_CHECKELF
 vendor/lib/liblgawb_main.so
 
 # Camera - components
 vendor/lib/camera/components/com.lge.node.camerasolution.so
 vendor/lib/camera/components/com.lge.node.capturebokeh.so
-vendor/lib/camera/components/com.lge.node.elpis.so
-vendor/lib/camera/components/com.lge.node.elvis.so
+vendor/lib/camera/components/com.lge.node.elpis.so;DISABLE_CHECKELF
+vendor/lib/camera/components/com.lge.node.elvis.so;DISABLE_CHECKELF
 vendor/lib/camera/components/com.lge.node.hdr.so
-vendor/lib/camera/components/com.lge.node.lavis.so
+vendor/lib/camera/components/com.lge.node.lavis.so;DISABLE_CHECKELF
 vendor/lib/camera/components/com.lge.node.multiframe.so
 vendor/lib/camera/components/com.lge.node.realtimebokeh.so
 vendor/lib/camera/components/com.lge.node.warp.so
 vendor/lib/camera/components/com.lge.stats.aec.so
 vendor/lib/camera/components/com.lge.stats.aecwrapper.so
-vendor/lib/camera/components/com.lge.stats.af.so
-vendor/lib/camera/components/com.lge.stats.af_core.so
+vendor/lib/camera/components/com.lge.stats.af.so;DISABLE_CHECKELF
+vendor/lib/camera/components/com.lge.stats.af_core.so;DISABLE_CHECKELF
 vendor/lib/camera/components/com.lge.stats.awb.so
 vendor/lib/camera/components/com.qti.eisv2.so
 vendor/lib/camera/components/com.qti.eisv3.so
@@ -142,7 +147,7 @@ vendor/lib/camera/components/com.qti.node.dummysat.so
 vendor/lib/camera/components/com.qti.node.eisv2.so
 vendor/lib/camera/components/com.qti.node.eisv3.so
 vendor/lib/camera/components/com.qti.node.gpu.so
-vendor/lib/camera/components/com.qti.node.memcpy.so
+vendor/lib/camera/components/com.qti.node.memcpy.so;DISABLE_CHECKELF
 vendor/lib/camera/components/com.qti.node.remosaic.so
 vendor/lib/camera/components/com.qti.node.stich.so
 vendor/lib/camera/components/com.qti.node.swregistration.so
