@@ -10,6 +10,9 @@ vendor.lge.faceprint.use.camera=0
 ro.vendor.lge.logical.camera=1
 ro.vendor.lge.physical.camera=3
 
+# Fingerprint
+persist.vendor.fingerprint.type=rear
+
 # Misc
 ro.vendor.lge.build.target_country=COM
 ro.vendor.lge.build.target_operator=LAO
