@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e256a961_969833f1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2025-02-28T18:51:23Z",
+      "side": 1,
+      "message": "hold until style3 bring up\nit may not have a sensor meaning it may need to be decommonized",
+      "revId": "7fc41bd6135197a7eefbc35b9860e0c4b5ff1146",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
