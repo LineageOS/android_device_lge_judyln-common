@@ -14,11 +14,16 @@
 # limitations under the License.
 #
 
+DEVICE_COMMON_PATH := device/lge/judyln-common
+
 # Inherit from common device tree
 include device/lge/sdm845-common/BoardConfigCommon.mk
 
 # Camera
 TARGET_USES_YCRCB_VENUS_CAMERA_PREVIEW := true
+
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_COMMON_PATH)/manifest.xml
 
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.hardware=judyln androidboot.fstab_suffix=judyln
