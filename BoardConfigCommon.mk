@@ -28,5 +28,8 @@ TARGET_KERNEL_CONFIG := lineageos_judyln_defconfig
 BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
 BOARD_VENDORIMAGE_PARTITION_SIZE := 1048576000
 
+# VINTF
+DEVICE_MANIFEST_FILE += device/lge/judyln-common/manifest.xml
+
 # inherit from the proprietary version
 include vendor/lge/judyln-common/BoardConfigVendor.mk
