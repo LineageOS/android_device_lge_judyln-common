@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e4321c2_11724faf",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2025-03-15T17:00:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "75645bd1_c28a0e90",
+      "range": {
+        "startLine": 25,
+        "startChar": 2,
+        "endLine": 25,
+        "endChar": 6
+      },
+      "revId": "3cfbb76d5350c639871872966ff44a1fcc8b2e7f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "84ee2168_1edcdc09",
@@ -37,6 +61,30 @@
       "writtenOn": "2025-03-15T16:48:40Z",
       "side": 1,
       "message": "Just hardcode the path and drop the var?",
+      "range": {
+        "startLine": 26,
+        "startChar": 24,
+        "endLine": 26,
+        "endChar": 45
+      },
+      "revId": "3cfbb76d5350c639871872966ff44a1fcc8b2e7f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e0472fa_f49db5c4",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2025-03-15T17:00:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "84ee2168_1edcdc09",
       "range": {
         "startLine": 26,
         "startChar": 24,
