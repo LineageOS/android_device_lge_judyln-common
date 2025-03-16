@@ -36,9 +36,6 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_COMMON_PATH)/overlay \
     $(DEVICE_COMMON_PATH)/overlay-lineage
 
-# Properties
-TARGET_VENDOR_PROP += $(DEVICE_COMMON_PATH)/vendor.prop
-
 # Audio
 PRODUCT_COPY_FILES += \
     $(DEVICE_COMMON_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \

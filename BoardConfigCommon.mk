@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+DEVICE_COMMON_PATH := device/lge/judyln-common
+
 # Inherit from common device tree
 include device/lge/sdm845-common/BoardConfigJudy.mk
 
@@ -27,6 +29,9 @@ TARGET_KERNEL_CONFIG := lineageos_judyln_defconfig
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
 BOARD_VENDORIMAGE_PARTITION_SIZE := 1048576000
+
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_COMMON_PATH)/vendor.prop
 
 # VINTF
 DEVICE_MANIFEST_FILE += device/lge/judyln-common/manifest.xml
