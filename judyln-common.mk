@@ -27,6 +27,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 DEVICE_NAME := judyln
 
+TARGET_LGE_HAS_NXP_NFC := true
+
 # common judy (sdm845)
 $(call inherit-product, device/lge/sdm845-common/sdm845.mk)
 
